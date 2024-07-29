@@ -12,7 +12,7 @@ import { Layout } from './Components/Layout/Layout'
 function App() {
   let router = createBrowserRouter([
     {
-      path : "" , element : <Layout/> ,children : [
+      path : "/ReactAssignment1/" , element : <Layout/> ,children : [
         {index : true , element : <Home/>},
         {path : "about" , element : <About/> },
         {path : "contact" , element : <Contact/> },
