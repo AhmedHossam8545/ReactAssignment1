@@ -42,7 +42,7 @@ export  function Nav() {
           </div>
           <div className=" nav-linkss flex flex-1 items-center justify-center sm:items-stretch lgnos:justify-start">
             <div className="flex flex-shrink-0 items-center">
-            <Link to={"/"} className="text-white text-3xl font-bold tracking-wider p-4 me-28 ">START REACT</Link>
+            <Link to={"/ReactAssignment1"} className="text-white text-3xl font-bold tracking-wider p-4 me-28 ">START REACT</Link>
 
             </div>
             <div className="hidden lgnos:ml-6 lgnos:block">
@@ -60,9 +60,9 @@ export  function Nav() {
                   </a>
                 ))} */
                   <div className="flex justify-between ms-96 	">
-                  <NavLink to={"/portfolio"} className="mx-4 text-lg font-bold   flex justify-center items-center p-4  " >PORTFOLIO</NavLink>
-                  <NavLink to={"/about"} className="mx-4 text-lg font-bold flex justify-center items-center p-4  ">ABOUT</NavLink>
-                  <NavLink to={"/contact"} className="mx-4 text-lg font-bold flex justify-center items-center p-4   ">CONTACT</NavLink>
+                  <NavLink to={"/ReactAssignment1/portfolio"} className="mx-4 text-lg font-bold   flex justify-center items-center p-4  " >PORTFOLIO</NavLink>
+                  <NavLink to={"/ReactAssignment1/about"} className="mx-4 text-lg font-bold flex justify-center items-center p-4  ">ABOUT</NavLink>
+                  <NavLink to={"/ReactAssignment1/contact"} className="mx-4 text-lg font-bold flex justify-center items-center p-4   ">CONTACT</NavLink>
                   </div>
                 }
               </div>
